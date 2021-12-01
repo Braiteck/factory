@@ -85,16 +85,38 @@
     }
 
 
+    header .cont,
+    header .cont.big
+    {
+        padding: 0 24px;
+    }
+
+
     header .city
     {
         width: auto;
         margin-right: auto;
-        margin-left: 40px;
+        margin-left: 24px;
     }
 
     header .city .nice-select .current
     {
-        padding-right: 44px;
+        font-size: 14px;
+        line-height: 30px;
+
+        padding-right: 28px;
+        padding-left: 0;
+    }
+
+    header .city .nice-select .current:after
+    {
+        top: -6px;
+        right: 4px;
+
+        width: 10px;
+        height: 10px;
+
+        border-width: 2px;
     }
 
     header .city .nice-select .list .list_item
@@ -103,9 +125,11 @@
     }
 
 
-    header .menu
+    header .menu .item > a
     {
-        display: none;
+        font-size: 14px;
+
+        padding: 6px 12px;
     }
 
 
@@ -113,27 +137,30 @@
     {
         display: flex;
 
-        width: 44px;
-        height: 44px;
+        width: 40px;
+        height: 40px;
         margin-left: auto;
     }
 
     header .video_link .icon
     {
-        width: 19px;
-        height: 21px;
+        width: 18px;
+        height: 20px;
     }
 
 
     header .phone
     {
-        margin-left: 40px;
+        font-size: 18px;
+        line-height: 24px;
+
+        margin-left: 20px;
     }
 
 
     header .menu_btn
     {
-        margin-left: 30px;
+        margin-left: 20px;
     }
 
 

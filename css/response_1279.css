@@ -143,6 +143,12 @@
     }
 
 
+    header .menu
+    {
+        display: none;
+    }
+
+
 
     /*----------
         Menu
