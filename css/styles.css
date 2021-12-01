@@ -392,6 +392,22 @@ button
 }
 
 
+.modal.fancybox__content > .carousel__button.is-close
+{
+    top: 20px;
+    right: 20px;
+
+    width: 52px;
+    height: 52px;
+}
+
+.modal.fancybox__content > .carousel__button.is-close svg
+{
+    width: 28px;
+    height: 28px;
+}
+
+
 .fancybox__thumbs .carousel__slide .fancybox__thumb::after
 {
     border-color: #fedb31;
@@ -6958,4 +6974,42 @@ footer .creator a
     color: #fedb31;
 
     text-decoration: none;
+}
+
+
+
+/*-----------
+    PopUp
+-----------*/
+.modal
+{
+    display: none;
+    visibility: visible !important;
+
+    width: 800px;
+    max-width: 100%;
+    padding: 60px 92px;
+
+    background: #373737;
+}
+
+
+.modal .modal_title
+{
+    color: #fedb31;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 100%;
+
+    margin-bottom: 20px;
+}
+
+
+.modal .modal_desc
+{
+    color: #fff;
+    font-size: 20px;
+    line-height: 32px;
+
+    margin-bottom: 40px;
 }

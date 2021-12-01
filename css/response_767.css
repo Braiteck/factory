@@ -1807,4 +1807,30 @@
     {
         margin-top: 8px;
     }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 40px 32px;
+    }
+
+
+    .modal .modal_title
+    {
+        font-size: 30px;
+
+        margin-bottom: 16px;
+    }
+
+
+    .modal .modal_desc
+    {
+        line-height: 20px;
+
+        margin-bottom: 24px;
+    }
 }

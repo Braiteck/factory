@@ -1977,4 +1977,30 @@
     {
         margin-top: 28px;
     }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 552px;
+        padding: 60px;
+    }
+
+
+    .modal .modal_title
+    {
+        font-size: 32px;
+    }
+
+
+    .modal .modal_desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        margin-bottom: 32px;
+    }
 }

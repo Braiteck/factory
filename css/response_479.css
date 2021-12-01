@@ -41,7 +41,20 @@
     --------------*/
     .fancybox__slide
     {
-        padding: 16px;
+        padding: 20px 0;
+    }
+
+
+    .modal.fancybox__content > .carousel__button.is-close
+    {
+        top: 12px;
+        right: 12px;
+    }
+
+    .modal.fancybox__content > .carousel__button.is-close svg
+    {
+        width: 24px;
+        height: 24px;
     }
 
 
@@ -1058,5 +1071,21 @@
         margin-top: 12px;
 
         justify-content: center;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 40px 24px;
+    }
+
+
+    .modal .modal_title
+    {
+        font-size: 28px;
     }
 }
