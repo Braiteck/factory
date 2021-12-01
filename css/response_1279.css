@@ -1,0 +1,1974 @@
+@media print, (max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --sidebar_width: 300px;
+        --font_size: 14px;
+    }
+
+
+    .cont,
+    .cont.big
+    {
+        padding: 0 24px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .block,
+    .block.mini
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .content_flex .content
+    {
+        width: calc(100% - var(--sidebar_width) - 36px);
+    }
+
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 52px;
+        height: 72px;
+    }
+
+    .swiper-button-prev
+    {
+        left: -12px;
+    }
+
+    .swiper-button-next
+    {
+        right: -12px;
+    }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after
+    {
+        left: 16px;
+
+        width: 32px;
+        height: 32px;
+    }
+
+    .swiper-button-next:after
+    {
+        left: -16px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 32px;
+    }
+
+
+
+    /*---------------
+        Load more
+    ---------------*/
+    .load_more
+    {
+        margin-top: 48px;
+    }
+
+
+    .load_more .btn
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        width: 240px;
+        height: 52px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .tabs button
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        height: 64px;
+        padding: 12px 44px;
+    }
+
+
+
+    /*-----------
+        Share
+    -----------*/
+    .share
+    {
+        font-size: 17px;
+        line-height: 23px;
+
+        margin-top: 44px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 24px 0;
+    }
+
+
+
+    /*----------
+        Menu
+    ----------*/
+    #menu .links > div > a
+    {
+        padding: 12px 40px 12px 0;
+    }
+
+
+    #menu .sub_links .items a
+    {
+        padding: 12px 0;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside .filter
+    {
+        padding: 4px 0;
+    }
+
+
+    aside .filter .item .name
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    aside .filter .item .name span
+    {
+        font-size: 12px;
+    }
+
+
+
+    aside .person .photo
+    {
+        width: 172px;
+        height: 172px;
+    }
+
+    aside .person .name
+    {
+        font-size: 19px;
+        line-height: 27px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .page_head.with_bg .cont
+    {
+        padding-bottom: 44px;
+    }
+
+
+    .page_head .logo
+    {
+        margin-bottom: 32px;
+    }
+
+    .page_head .logo img
+    {
+        width: 140px;
+    }
+
+
+    .page_title
+    {
+        font-size: 40px;
+    }
+
+
+    .page_head .desc
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        margin-top: 16px;
+    }
+
+
+    .page_head.with_bg .cont
+    {
+        min-height: 320px;
+        padding-top: 112px;
+        padding-bottom: 44px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns
+    {
+        --form_columns_offset: 20px;
+    }
+
+
+    .form .line
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .form .input
+    {
+        font-size: 16px;
+
+        height: 56px;
+        padding: 0 20px;
+    }
+
+    .form textarea
+    {
+        font-size: 16px;
+
+        padding: 14px 20px;
+    }
+
+
+    .form .file label
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        width: 100%;
+        height: auto;
+        padding: 16px 20px;
+
+        text-align: center;
+    }
+
+
+    .form .agree
+    {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+
+    .form .submit_btn
+    {
+        font-size: 17px;
+
+        height: 56px;
+    }
+
+
+    .form .bottom .file
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .form .bottom .agree
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .form .bottom .submit
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+
+    .text_block h1
+    {
+        font-size: 32px;
+
+        margin-bottom: 24px;
+    }
+
+    .text_block h2
+    {
+        font-size: 28px;
+
+        margin-bottom: 20px;
+    }
+
+    .text_block h3
+    {
+        font-size: 24px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .text_block * + h1,
+    .text_block * + h2,
+    .text_block * + h3
+    {
+        margin-top: 44px;
+    }
+
+
+    .text_block blockquote,
+    .text_block q
+    {
+        font-size: 20px;
+        line-height: 28px;
+
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 12px 64px;
+
+        background: url(../images/ic_quote.png) 0 0/28px auto no-repeat, url(../images/ic_quote2.png) 100% 100%/28px auto no-repeat;
+    }
+
+
+    .text_block .cols
+    {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .text_block .cols .col
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .text_block ul li:before
+    {
+        top: 9px;
+    }
+
+
+    .text_block .table_wrap
+    {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .text_block table th
+    {
+        height: 48px;
+    }
+
+    .text_block table td
+    {
+        height: 52px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .swiper-container .cont
+    {
+        min-height: 0;
+        padding-top: 152px;
+        padding-bottom: 240px;
+    }
+
+
+    .first_section .info
+    {
+        width: 552px;
+    }
+
+
+    .first_section .info .title
+    {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .first_section .info .desc
+    {
+        font-size: 19px;
+        line-height: 27px;
+
+        margin-top: 20px;
+    }
+
+    .first_section .info .link
+    {
+        line-height: 60px;
+
+        width: 280px;
+        height: 60px;
+        margin-top: 28px;
+    }
+
+
+
+    .first_section .stats
+    {
+        padding: 40px 0;
+    }
+
+    .first_section .stats .item .val
+    {
+        font-size: 40px;
+    }
+
+    .first_section .stats .item .val sup
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .first_section .stats .item .name
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+
+    /*-----------
+        Types
+    -----------*/
+    .types .item
+    {
+        height: 400px;
+        padding: 28px;
+    }
+
+
+    .types .item .name
+    {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+
+    .types .item .price
+    {
+        font-size: 19px;
+        line-height: 35px;
+
+        margin-top: 20px;
+    }
+
+
+    .types .item .btn
+    {
+        font-size: 17px;
+        line-height: 52px;
+
+        bottom: 32px;
+
+        width: 180px;
+        height: 52px;
+    }
+
+
+
+    /*------------
+        Brands
+    ------------*/
+    .brands .block_title
+    {
+        font-size: 32px;
+
+        margin-bottom: 36px;
+    }
+
+
+    .brands .item
+    {
+        height: 92px;
+    }
+
+
+    .brands .all_link a
+    {
+        font-size: 14px;
+        line-height: 22px;
+
+        padding: 12px 28px;
+    }
+
+
+
+    /*----------------
+        Uniqueness
+    ----------------*/
+    .uniqueness .data
+    {
+        padding: 60px 32px;
+    }
+
+
+    .uniqueness .data .block_title
+    {
+        font-size: 32px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .uniqueness .data .item
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+
+    /*-----------
+        Stock
+    -----------*/
+    .stock .data
+    {
+        padding: 60px 32px;
+    }
+
+
+    .stock .data .sticker
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .stock .data .block_title
+    {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .stock .data .block_title sup
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+    .stock .data .location
+    {
+        font-size: 17px;
+        line-height: 25px;
+
+        margin-top: 12px;
+    }
+
+
+    .stock .data .desc
+    {
+        font-size: 18px;
+        line-height: 28px;
+
+        margin-top: 32px;
+    }
+
+
+    .stock .data .link
+    {
+        line-height: 48px;
+
+        margin-top: 36px;
+    }
+
+
+
+    /*-------------
+        Tenants
+    -------------*/
+    .tenants .row
+    {
+        margin-bottom: -48px;
+        margin-left: -52px;
+    }
+
+    .tenants .row > *
+    {
+        width: calc(33.333% - 52px);
+        margin-bottom: 48px;
+        margin-left: 52px;
+    }
+
+
+    .tenants .item .location
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+    .tenants .item .logo
+    {
+        width: 124px;
+        height: 92px;
+    }
+
+
+    .tenants .item .name
+    {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+
+    .tenants .item .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    /*---------------
+        Instagram
+    ---------------*/
+    .instagram .link
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        bottom: 32px;
+
+        width: 300px;
+        height: 52px;
+    }
+
+    .instagram .link .icon
+    {
+        width: 20px;
+        height: 21px;
+    }
+
+
+
+    /*-------------------
+        Search result
+    -------------------*/
+    .search_result form
+    {
+        margin-bottom: 40px;
+    }
+
+    .search_result form .input
+    {
+        font-size: 16px;
+
+        height: 56px;
+        padding-right: 72px;
+
+        border-radius: 12px;
+    }
+
+    .search_result form .submit_btn
+    {
+        width: 64px;
+        height: 56px;
+        margin-left: -64px;
+    }
+
+    .search_result form .submit_btn .icon
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+
+    .search_result .list .item
+    {
+        font-size: 14px;
+        line-height: 22px;
+
+        padding: 23px;
+    }
+
+    .search_result .list .item .name
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+
+    /*------------------
+        Objects head
+    ------------------*/
+    .objects_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .objects_head .count
+    {
+        font-size: 28px;
+    }
+
+
+    .objects_head .view .btn
+    {
+        width: 152px;
+        height: 44px;
+    }
+
+
+
+    /*-------------
+        Objects
+    -------------*/
+    .objects .row
+    {
+        margin-left: -40px;
+    }
+
+    .objects .row > *
+    {
+        width: calc(50% - 40px);
+        margin-left: 40px;
+    }
+
+
+    .objects .object .thumb
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .objects .object .location
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+    .objects .object .info .val
+    {
+        font-size: 18px;
+    }
+
+    .objects .object .info .val sup
+    {
+        font-size: 10px;
+    }
+
+
+    .objects .object .object_name
+    {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+
+
+    /*-----------------------
+        Objects - Related
+    -----------------------*/
+    .objects.related
+    {
+        padding: 64px 0;
+    }
+
+
+    .objects.related .block_title
+    {
+        font-size: 26px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .objects.related .row
+    {
+        margin-left: -32px;
+    }
+
+    .objects.related .row > *
+    {
+        width: calc(33.333% - 32px);
+        margin-left: 32px;
+    }
+
+
+
+    /*------------------
+        Photogallery
+    ------------------*/
+    .photogallery .row
+    {
+        margin-left: -32px;
+    }
+
+    .photogallery .row > *
+    {
+        width: calc(33.333% - 32px);
+        max-width: calc(100% - 32px);
+        margin-left: 32px;
+    }
+
+
+
+    .photogallery .item .count
+    {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+
+    .photogallery .item .date
+    {
+        font-size: 14px;
+        line-height: 28px;
+
+        margin-bottom: 16px;
+    }
+
+    .photogallery .item .name
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+    .photogallery .item .desc
+    {
+        font-size: 14px;
+        line-height: 22px;
+
+        margin-top: 12px;
+    }
+
+
+
+    /*-----------------------
+        Photogallery info
+    -----------------------*/
+    .photogallery_info .block_title
+    {
+        font-size: 30px;
+    }
+
+
+    .photogallery_info .block_desc
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        margin-top: 24px;
+    }
+
+
+    .photogallery_info .row
+    {
+        margin-top: 52px;
+        margin-bottom: -48px;
+        margin-left: -48px;
+    }
+
+    .photogallery_info .row > *
+    {
+        width: calc(33.333% - 48px);
+        margin-bottom: 48px;
+        margin-left: 48px;
+    }
+
+
+
+    /*-----------------
+        Object head
+    -----------------*/
+    .object_head .cont
+    {
+        min-height: 0;
+        padding-top: 160px;
+        padding-bottom: 44px;
+    }
+
+
+    .object_head .name
+    {
+        font-size: 40px;
+    }
+
+
+    .object_head .type,
+    .object_head .location,
+    .object_head .phone
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .object_head .info .sep
+    {
+        margin: 24px 24px 0;
+    }
+
+
+
+    /*-----------------
+        Object info
+    -----------------*/
+    .object_info .tab_content .block_title
+    {
+        font-size: 30px;
+
+        margin-bottom: 24px;
+    }
+
+
+
+    .object_info .contacts_data
+    {
+        margin-top: 44px;
+        padding: 36px 40px;
+    }
+
+
+    .object_info .contacts_data .logo
+    {
+        top: 36px;
+        right: 40px;
+    }
+
+
+    .object_info .contacts_data .title
+    {
+        font-size: 19px;
+        line-height: 25px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .object_info .contacts_data .item + .item
+    {
+        margin-top: 24px;
+    }
+
+
+    .object_info .contacts_data .icon
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+    .object_info .contacts_data .phone .icon > *
+    {
+        width: 22px;
+        height: 22px;
+    }
+
+    .object_info .contacts_data .email .icon > *
+    {
+        width: 22px;
+        height: 19px;
+    }
+
+    .object_info .contacts_data .site .icon > *
+    {
+        width: 25px;
+        height: 25px;
+    }
+
+    .object_info .contacts_data .time .icon > *
+    {
+        width: 25px;
+        height: 25px;
+    }
+
+    .object_info .contacts_data .icon + *
+    {
+        width: calc(100% - 80px);
+    }
+
+
+    .object_info .contacts_data .name
+    {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+
+    .object_info .contacts_data .val
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+
+
+    .object_info .info
+    {
+        font-size: 17px;
+        line-height: 23px;
+
+        margin-top: 44px;
+    }
+
+    .object_info .info .price,
+    .object_info .info .phone
+    {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row
+    {
+        margin-bottom: -40px;
+        margin-left: -32px;
+    }
+
+    .advantages .row > *
+    {
+        width: calc(25% - 32px);
+        margin-bottom: 40px;
+        margin-left: 32px;
+    }
+
+
+    .advantages .item
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .advantages .item .icon
+    {
+        height: 76px;
+        margin-bottom: 20px;
+    }
+
+    .advantages .item .name
+    {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .advantages .item .desc
+    {
+        margin-top: 12px;
+    }
+
+
+
+    /*-------------
+        Gallery
+    -------------*/
+    .gallery
+    {
+        padding: 60px 0 72px;
+    }
+
+
+    .gallery .block_title
+    {
+        font-size: 28px;
+
+        margin-bottom: 36px;
+    }
+
+
+    .gallery .swiper-container
+    {
+        padding: 0 60px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .feedback
+    {
+        padding: 60px 32px;
+    }
+
+
+    .contacts_info .block_title
+    {
+        font-size: 32px;
+    }
+
+
+    .contacts_info .block_desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        margin-bottom: 32px;
+    }
+
+
+
+    .contacts_info .contacts
+    {
+        padding: 60px 32px;
+    }
+
+
+    .contacts_info .contacts .item + .item
+    {
+        margin-top: 32px;
+    }
+
+
+    .contacts_info .contacts .icon + *
+    {
+        width: calc(100% - 80px);
+    }
+
+
+    .contacts_info .contacts .icon
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+    .contacts_info .contacts .phone .icon > *
+    {
+        width: 22px;
+        height: 22px;
+    }
+
+    .contacts_info .contacts .email .icon > *
+    {
+        width: 22px;
+        height: 19px;
+    }
+
+    .contacts_info .contacts .manager .icon > *
+    {
+        width: 22px;
+        height: 23px;
+    }
+
+
+    .contacts_info .contacts .name
+    {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+
+    .contacts_info .contacts .val,
+    .contacts_info .contacts .manager .name
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+
+    .contacts_info .contacts .manager .post
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .contacts_info .contacts .row .col_right
+    {
+        margin-top: 32px;
+    }
+
+
+    .contacts_info .contacts .address
+    {
+        padding: 24px 28px;
+    }
+
+
+    .contacts_info .contacts .or
+    {
+        font-size: 18px;
+        line-height: 26px;
+
+        margin-top: 32px;
+        margin-bottom: 24px;
+    }
+
+
+
+    /*----------------
+        Error info
+    ----------------*/
+    .error_info
+    {
+        padding-top: 112px;
+    }
+
+
+    .error_info .info
+    {
+        width: 800px;
+        padding: 63px 71px;
+    }
+
+
+
+    /*------------
+        In dev
+    ------------*/
+    .in_dev
+    {
+        padding-top: 112px;
+    }
+
+
+    .in_dev .info
+    {
+        width: 800px;
+        padding: 63px 71px;
+    }
+
+
+
+    /*---------------
+        Employees
+    ---------------*/
+    .employees .head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .employees .head .title
+    {
+        font-size: 34px;
+    }
+
+    .employees .head .title small
+    {
+        font-size: 17px;
+        line-height: 29px;
+    }
+
+
+    .employees .head .all_link
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        padding: 14px 32px;
+    }
+
+
+    .employees .row
+    {
+        margin-left: -52px;
+    }
+
+    .employees .row > *
+    {
+        width: calc(33.333% - 52px);
+        max-width: calc(33.333% - 52px);
+        margin-left: 52px;
+    }
+
+
+    .employees .person .photo
+    {
+        width: 200px;
+        padding-bottom: 200px;
+    }
+
+
+    .employees .person .name
+    {
+        font-size: 19px;
+        line-height: 27px;
+    }
+
+    .employees .person .post
+    {
+        font-size: 14px;
+        line-height: 22px;
+
+        margin-top: 8px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .articles .head .title
+    {
+        font-size: 34px;
+    }
+
+    .articles .head .title small
+    {
+        font-size: 17px;
+        line-height: 29px;
+    }
+
+
+    .articles .head .all_link
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        padding: 14px 32px;
+    }
+
+
+
+    .articles .list > * + *
+    {
+        margin-top: 44px;
+    }
+
+
+    .articles .article .info
+    {
+        padding: 28px 0 0;
+    }
+
+
+    .articles .article .date
+    {
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+
+    .articles .article .name
+    {
+        font-size: 21px;
+        line-height: 29px;
+    }
+
+
+    .articles .article .desc
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+
+    .articles .swiper-container
+    {
+        padding: 0 52px;
+    }
+
+
+    .articles .slide .article .info
+    {
+        padding-top: 20px;
+    }
+
+    .articles .slide .article .name
+    {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .date
+    {
+        font-size: 16px;
+        line-height: 28px;
+
+        margin-top: 24px;
+    }
+
+
+
+    /*----------------
+        About_info
+    ----------------*/
+    .about_info .mission
+    {
+        padding: 60px 40px;
+    }
+
+    .about_info .mission .title
+    {
+        font-size: 32px;
+        line-height: 52px;
+
+        margin: 0 -20px;
+        padding: 0 20px;
+    }
+
+    .about_info .mission .desc
+    {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+
+
+    .about_info .info
+    {
+        padding: 60px 40px;
+    }
+
+    .about_info .info .item + .item
+    {
+        margin-top: 40px;
+    }
+
+    .about_info .info .title
+    {
+        font-size: 22px;
+    }
+
+    .about_info .info .desc
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        margin-top: 12px;
+    }
+
+
+
+    .about_info .data .head
+    {
+        height: auto;
+        padding-top: 60px;
+    }
+
+    .about_info .data .head:after
+    {
+        display: none;
+    }
+
+    .about_info .data .head .title
+    {
+        font-size: 32px;
+        line-height: 52px;
+
+        padding: 0 20px;
+    }
+
+    .about_info .data .head .img
+    {
+        width: calc(100% + 80px);
+    }
+
+
+
+    .about_info .data .points
+    {
+        position: relative;
+        right: 0;
+
+        width: calc(100% + 48px);
+        max-width: calc(100% + 48px);
+        margin: 52px -24px 0;
+        padding: 40px;
+    }
+
+
+    .about_info .data .points > *
+    {
+        font-size: 17px;
+        line-height: 25px;
+
+        display: flex;
+
+        min-height: 37px;
+        padding-left: 44px;
+
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .about_info .data .points > *:before
+    {
+        font-size: 40px;
+    }
+
+    .about_info .data .points > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+
+    .about_info .data .items
+    {
+        margin-top: 52px;
+        margin-left: -52px;
+        padding: 0;
+    }
+
+    .about_info .data .items > *
+    {
+        width: calc(33.333% - 52px);
+        margin-left: 52px;
+    }
+
+    .about_info .data .items .item
+    {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .about_info .data .items .item .icon
+    {
+        width: 88px;
+        height: 88px;
+    }
+
+
+
+    .about_info .structure
+    {
+        padding: 60px 0;
+    }
+
+    .about_info .structure .block_title
+    {
+        font-size: 32px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .about_info .structure .row
+    {
+        margin-left: -32px;
+    }
+
+    .about_info .structure .row:before
+    {
+        display: none;
+    }
+
+    .about_info .structure .row > *
+    {
+        width: calc(25% - 32px);
+        margin-left: 32px;
+    }
+
+
+    .about_info .structure .item
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .about_info .structure .item .icon
+    {
+        width: 88px;
+        height: 88px;
+        margin-bottom: 20px;
+    }
+
+    .about_info .structure .item .name
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+
+    /*-----------------------
+        MFC - Our objects
+    -----------------------*/
+    .mfc_our_objects .block_title
+    {
+        font-size: 36px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .mfc_our_objects .swiper-container
+    {
+        padding: 0 24px;
+    }
+
+
+    .mfc_our_objects .object
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .mfc_our_objects .object .thumb
+    {
+        width: 172px;
+        height: 172px;
+        margin-bottom: 20px;
+
+        border-width: 5px;
+    }
+
+    .mfc_our_objects .object .name
+    {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .mfc_our_objects .object .desc
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*-----------------------
+        MFC - Description
+    -----------------------*/
+    .mfc_description
+    {
+        padding: 60px 0;
+    }
+
+
+
+    /*-----------------
+        MFC - Stats
+    -----------------*/
+    .mfc_stats
+    {
+        padding: 72px 0;
+    }
+
+
+    .mfc_stats .item
+    {
+        font-size: 18px;
+        line-height: 26px;
+
+        padding: 27px;
+    }
+
+
+    .mfc_stats .item .val
+    {
+        font-size: 40px;
+
+        margin-bottom: 8px;
+    }
+
+    .mfc_stats .item .val sup
+    {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .mfc_stats .item .val small
+    {
+        font-size: 18px;
+
+        margin-bottom: 4px;
+    }
+
+
+
+    /*----------------------
+        MFC - Advantages
+    ----------------------*/
+    .mfc_advantages .block_title
+    {
+        font-size: 32px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .mfc_advantages .img
+    {
+        width: 248px;
+    }
+
+
+    .mfc_advantages .col
+    {
+        width: calc(50% - 156px);
+    }
+
+
+    .mfc_advantages .item
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .mfc_advantages .item + .item
+    {
+        margin-top: 24px;
+    }
+
+    .mfc_advantages .item .icon
+    {
+        width: 56px;
+        height: 56px;
+    }
+
+    .mfc_advantages .item .name
+    {
+        width: calc(100% - 80px);
+    }
+
+
+
+    /*-------------------
+        MFC - History
+    -------------------*/
+    .mfc_history .block_title
+    {
+        font-size: 32px;
+
+        margin-bottom: 36px;
+        padding-right: 152px;
+    }
+
+
+    .mfc_history .swiper-button-next,
+    .mfc_history .swiper-button-prev
+    {
+        top: -76px;
+    }
+
+    .mfc_history .swiper-button-prev
+    {
+        right: 48px;
+    }
+
+
+    .mfc_history .item
+    {
+        padding-bottom: 25px;
+    }
+
+
+    .mfc_history .item .year
+    {
+        font-size: 24px;
+
+        height: 64px;
+        margin-bottom: 16px;
+    }
+
+    .mfc_history .item .year:after
+    {
+        width: 12px;
+        height: 64px;
+
+        border-top-width: 32px;
+        border-bottom-width: 32px;
+        border-left-width: 12px;
+    }
+
+
+    .mfc_history .item .name
+    {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+
+    .mfc_history .text_block
+    {
+        margin-top: 56px;
+    }
+
+
+
+    /*-------------------
+        Premises info
+    -------------------*/
+    .premises_info .head
+    {
+        float: none;
+
+        width: 100%;
+    }
+
+    .premises_info .head .premises_name
+    {
+        font-size: 28px;
+    }
+
+    .premises_info .head .area
+    {
+        font-size: 20px;
+        line-height: 44px;
+    }
+
+    .premises_info .head .area sup
+    {
+        font-size: 12px;
+        line-height: 34px;
+    }
+
+
+    .premises_info .data
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        float: none;
+
+        width: 100%;
+        margin-top: 32px;
+    }
+
+    .premises_info .data > * + *
+    {
+        margin-top: 24px;
+    }
+
+
+    .premises_info .data .order_btn
+    {
+        font-size: 19px;
+
+        width: 332px;
+        height: 56px;
+    }
+
+
+    .premises_info .images
+    {
+        float: none;
+
+        width: 650px;
+        margin-top: 24px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .info
+    {
+        padding: 48px 0;
+    }
+
+
+    footer .menu
+    {
+        margin-bottom: -4px;
+        margin-left: -20px;
+
+        justify-content: center;
+    }
+
+    footer .menu > *
+    {
+        margin-bottom: 4px;
+        margin-left: 20px;
+    }
+
+    footer .menu a
+    {
+        font-size: 13px;
+        line-height: 19px;
+
+        text-align: center;
+    }
+
+
+    footer .phone
+    {
+        font-size: 19px;
+        line-height: 25px;
+
+        margin-top: 28px;
+    }
+
+
+    footer .email
+    {
+        line-height: 25px;
+
+        margin-top: 28px;
+        margin-left: 72px;
+    }
+
+
+
+    footer .socials
+    {
+        margin-top: 28px;
+    }
+}
