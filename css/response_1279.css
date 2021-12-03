@@ -143,6 +143,12 @@
     }
 
 
+    header .city
+    {
+        margin-left: 24px;
+    }
+
+
     header .menu
     {
         display: none;

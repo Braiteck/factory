@@ -96,7 +96,7 @@
     {
         width: auto;
         margin-right: auto;
-        margin-left: 24px;
+        margin-left: 8px;
     }
 
     header .city .nice-select .current
@@ -104,14 +104,16 @@
         font-size: 14px;
         line-height: 30px;
 
-        padding-right: 28px;
-        padding-left: 0;
+        padding-right: 32px;
+        padding-left: 16px;
+
+        border-radius: 12px 12px 0 0;
     }
 
     header .city .nice-select .current:after
     {
         top: -6px;
-        right: 4px;
+        right: 8px;
 
         width: 10px;
         height: 10px;
@@ -119,9 +121,16 @@
         border-width: 2px;
     }
 
+    header .city .nice-select .list
+    {
+        border-radius: 0 0 12px 12px;
+    }
+
     header .city .nice-select .list .list_item
     {
-        padding: 8px 24px;
+        font-size: 14px;
+
+        padding: 8px 16px;
     }
 
 

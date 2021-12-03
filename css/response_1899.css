@@ -127,15 +127,25 @@
 
     header .menu .item > a
     {
-        font-size: 16px;
+        font-size: 15px;
 
         padding: 8px 16px;
     }
 
 
+
     header .video_link
     {
-        display: none;
+        display: flex;
+
+        width: 40px;
+        height: 40px;
+    }
+
+    header .video_link .icon
+    {
+        width: 18px;
+        height: 20px;
     }
 
 
