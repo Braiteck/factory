@@ -316,6 +316,7 @@
     -------------------*/
     .first_section .swiper-container .cont
     {
+        min-height: 464px;
         padding-top: 0;
         padding-bottom: 0;
     }
@@ -359,7 +360,7 @@
 
     .first_section .bg
     {
-        height: 440px;
+        height: 464px;
     }
 
 
