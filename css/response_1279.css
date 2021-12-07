@@ -439,7 +439,7 @@
     -------------------*/
     .first_section .swiper-container .cont
     {
-        min-height: 0;
+        min-height: 606px;
         padding-top: 152px;
         padding-bottom: 240px;
     }
